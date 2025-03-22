@@ -6,38 +6,71 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>About</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link href="about.css" rel="stylesheet">
 </head>
 
 <body>
-  <nav class="navbar sticky-top navbar-expand-lg bg-body-tertiary p-3" style="border-bottom: 3px solid black !important;">
-    <div class="container-fluid">
-      <span class="navbar-brand ms-5" style="font-size: 30px !important">Matthew McAuley</span>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto me-5" style="font-size: 20px !important">
-          <li class="nav-item mx-4">
-            <a class="nav-link active" aria-current="page" href="../about">About</a>
-          </li>
-          <li class="nav-item mx-4">
-            <a class="nav-link" href="../resume">Resume</a>
-          </li>
-          <li class="nav-item mx-4">
-            <a class="nav-link" href="../work">Work</a>
-          </li>
-          <li class="nav-item mx-4">
-            <a class="nav-link" href="../projects">Projects</a>
-          </li>
-        </ul>
+  <div class="about-page">
+    <nav class="navbar sticky-top navbar-expand-lg bg-body-tertiary p-3" style="border-bottom: 3px solid black !important;">
+      <div class="container-fluid">
+        <span class="navbar-brand ms-5" style="font-size: 30px !important">Matthew McAuley</span>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto me-5" style="font-size: 20px !important">
+            <li class="nav-item mx-4">
+              <a class="nav-link active" aria-current="page" href="../about">About</a>
+            </li>
+            <li class="nav-item mx-4">
+              <a class="nav-link" href="../resume">Resume</a>
+            </li>
+            <li class="nav-item mx-4">
+              <a class="nav-link" href="../work">Work</a>
+            </li>
+            <li class="nav-item mx-4">
+              <a class="nav-link" href="../projects">Projects</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="about-container">
+      <div class="top">
+        <div class="text-area">
+          <h1>About</h1>
+          <p>I’m a Computer Science major at Cornell University who enjoys working with others to tackle interesting and complex problems with technology. I have extensive experience with full-stack development using tools such as React and Typescript on the fronted and C# and Python on the backend. I’ve worked on many projects including an API for organizing financial data, embedded software for controlling robots, an information retrieval system for exercises, and a fitness companion mobile app. I always strive for designing clean, maintainable, and well documented code, working effectively with others, and staying up to date with the latest trends in software. Feel free to take a more in depth look into my portfolio or reach out through email or LinkedIn if you’d like to connect.</p>
+        </div>
+        <div class="img-area">
+          <img class="img" src="../assets/headshot.jpg" alt="Headshot"/>
+        </div>
+      </div>
+      <div class="slider">
+        <div class="icons" style="--quantity: 18">
+          <div class="item" style="--position: 1"><img src="../assets/icons/aws.webp" /></div>
+          <div class="item" style="--position: 2"><img src="../assets/icons/c%23.png" /></div>
+          <div class="item" style="--position: 3"><img src="../assets/icons/c.png" /></div>
+          <div class="item" style="--position: 4"><img src="../assets/icons/docker.webp" /></div>
+          <div class="item" style="--position: 5"><img src="../assets/icons/expo.png" /></div>
+          <div class="item" style="--position: 6"><img src="../assets/icons/flask.png" /></div>
+          <div class="item" style="--position: 7"><img src="../assets/icons/html.png" /></div>
+          <div class="item" style="--position: 8"><img src="../assets/icons/java.png" /></div>
+          <div class="item" style="--position: 9"><img src="../assets/icons/js.png" /></div>
+          <div class="item" style="--position: 10"><img src="../assets/icons/ocaml.png" /></div>
+          <div class="item" style="--position: 11"><img src="../assets/icons/oracle.png" /></div>
+          <div class="item" style="--position: 12"><img src="../assets/icons/postgres.png" /></div>
+          <div class="item" style="--position: 13"><img src="../assets/icons/python.webp" /></div>
+          <div class="item" style="--position: 14"><img src="../assets/icons/react.png" /></div>
+          <div class="item" style="--position: 15"><img src="../assets/icons/snowflake.png" /></div>
+          <div class="item" style="--position: 16"><img src="../assets/icons/SQLAlchemy.png" /></div>
+          <div class="item" style="--position: 17"><img src="../assets/icons/sqlite.png" /></div>
+          <div class="item" style="--position: 18"><img src="../assets/icons/ts.png" /></div>
+        </div>
       </div>
     </div>
-  </nav>
+  </div>
 
-  <p>Test About Page</p>
-  <a href="../projects">Projects Page</a>
-  <a href="../resume">Resume Page</a>
-  <a href="../work">Work Page</a>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
