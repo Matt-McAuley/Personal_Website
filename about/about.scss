@@ -96,8 +96,8 @@
           margin: 0 50px;
           position: absolute;
           left: 100%;
-          animation: autoRun 15s linear infinite;
-          animation-delay: calc( (15s / var(--quantity)) * (var(--position) - 1) );
+          animation: autoRun 25s linear infinite;
+          animation-delay: calc( (25s / var(--quantity)) * (var(--position) - 1) );
 
           img {
             width: 100%;
