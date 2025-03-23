@@ -55,6 +55,7 @@ a:hover {
   flex-direction: column;
   align-items: center;
   gap: 50px;
+  width: 100%;
 }
 .projects-page .projects-container .project-cards .project-card {
   display: flex;
@@ -66,21 +67,21 @@ a:hover {
   margin: 30px 0;
   box-shadow: 0 5px 8px rgba(0, 0, 0, 0.12), 0 6px 7px rgba(0, 0, 0, 0.24);
   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  padding: 20px;
 }
 .projects-page .projects-container .project-cards .project-card:hover {
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 .projects-page .projects-container .project-cards .project-card .project-image {
-  width: 40%;
-  height: auto;
+  width: 38%;
+  align-self: center;
 }
 .projects-page .projects-container .project-cards .project-card .project-info {
-  width: 60%;
-  height: auto;
+  width: 58%;
+  min-height: 300px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 20px;
 }
 .projects-page .projects-container .project-cards .project-card .project-info .project-text {
   height: calc(100% - 75px);

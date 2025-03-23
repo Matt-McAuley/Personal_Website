@@ -11,7 +11,7 @@ const cards =
       "new_tab": true,
       "has_github": false,
       "github_link": null,
-      "icons": ["c#.png", "postgres.png", "redis.webp", "snowflake.png"]
+      "icons": ["c%23.png", "postgres.png", "redis.webp", "snowflake.png"]
     },
     {
       "id": 2,
