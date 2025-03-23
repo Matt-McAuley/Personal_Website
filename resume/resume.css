@@ -6,6 +6,12 @@
 .resume-page {
   display: flex;
   flex-direction: column;
+  padding: 0;
+  margin: 0;
+}
+.resume-page .resume-container {
+  display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: space-around;
   flex-grow: 1;
@@ -13,32 +19,32 @@
   padding: 30px;
   margin: 0;
 }
-.resume-page .top {
+.resume-page .resume-container .top {
   display: flex;
   justify-content: space-between;
   width: 60%;
 }
-.resume-page .top .download {
+.resume-page .resume-container .top .download {
   width: 8%;
   transition: opacity 0.15s ease-in-out;
 }
-.resume-page .top .download:hover {
+.resume-page .resume-container .top .download:hover {
   opacity: 0.75;
 }
-.resume-page .top .download img {
+.resume-page .resume-container .top .download img {
   width: 100%;
 }
-.resume-page .top h1 {
+.resume-page .resume-container .top h1 {
   width: 50%;
   font-size: 2.5rem;
   margin-bottom: 10px;
 }
-.resume-page canvas {
+.resume-page .resume-container canvas {
   border: 2px solid #000;
   width: 60%;
   height: auto;
 }
-.resume-page .socials {
+.resume-page .resume-container .socials {
   position: fixed;
   top: 120px;
   right: 0;
@@ -48,15 +54,15 @@
   align-items: center;
   height: 100px;
 }
-.resume-page .socials a {
+.resume-page .resume-container .socials a {
   width: 30px;
   margin: 10px 30px;
   transition: opacity 0.15s ease-in-out;
 }
-.resume-page .socials a:hover {
+.resume-page .resume-container .socials a:hover {
   opacity: 0.75;
 }
-.resume-page .socials a img {
+.resume-page .resume-container .socials a img {
   width: 100%;
   height: auto;
 }
