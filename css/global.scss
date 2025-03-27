@@ -1,0 +1,72 @@
+@use 'variables' as v;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  border-bottom: 3px solid v.$primary-color;
+  background-color: v.$background-color;
+
+  .navbar-brand, .nav-link {
+    color: v.$primary-color !important;
+  }
+
+  .navbar-brand {
+    font-size: 30px;
+  }
+
+  .navbar-nav {
+    font-size: 20px;
+  }
+
+  a {
+
+    svg {
+      width: 30px;
+      height: auto;
+      stroke: v.$primary-color;
+      fill: v.$primary-color
+    }
+  }
+}
+
+.socials {
+  position: fixed;
+  top: 120px;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+
+  a {
+    width: 30px;
+    margin: 10px 30px;
+    transition: opacity .15s ease-in-out;
+
+    &:hover {
+      opacity: .5;
+    }
+
+    svg {
+      width: 100%;
+      height: auto;
+      stroke: v.$primary-color;
+      fill: v.$background-color;
+    }
+
+    .email {
+      fill: v.$primary-color;
+    }
+  }
+}
+
+.resume-button {
+
+  img {
+    width: 30px;
+  }
+}

@@ -1,0 +1,24 @@
+.socials {
+  position: fixed;
+  top: 120px;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+.socials a {
+  width: 30px;
+  margin: 10px 30px;
+  transition: opacity 0.15s ease-in-out;
+}
+.socials a:hover {
+  opacity: 0.5;
+}
+.socials a img {
+  width: 100%;
+  height: auto;
+}
+
+/*# sourceMappingURL=global.css.map */

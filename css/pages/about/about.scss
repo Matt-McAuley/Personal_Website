@@ -1,24 +1,18 @@
+@use '../../global.css';
+@use '../../variables' as v;
+
 * {
-  margin: 0;
-  padding: 0;
   max-height: 100vh;
   max-width: 100vw;
-}
-
-.resume-button {
-
-  img {
-    width: 30px;
-  }
 }
 
 .about-page {
   display: flex;
   flex-direction: column;
-  width: 100vw;
-  height: 100vh;
   padding: 0;
   margin: 0;
+  background-color: v.$background-color;
+  color: v.$primary-color;
 
   .about-container {
     display: flex;
@@ -29,32 +23,6 @@
     width: 100%;
     padding: 30px;
     margin: 0;
-
-    .socials {
-      position: fixed;
-      top: 120px;
-      right: 0;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      height: 100px;
-
-      a {
-        width: 30px;
-        margin: 10px 30px;
-        transition: opacity .15s ease-in-out;
-
-        &:hover {
-          opacity: .5;
-        }
-
-        img {
-          width: 100%;
-          height: auto;
-        }
-      }
-    }
 
     .top {
       display: flex;
@@ -91,6 +59,7 @@
           width: 100%;
           height: auto;
           margin-left: 10px;
+          border-radius: 10px;
         }
       }
     }

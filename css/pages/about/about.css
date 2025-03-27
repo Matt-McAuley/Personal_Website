@@ -1,21 +1,42 @@
-* {
-  margin: 0;
-  padding: 0;
-  max-height: 100vh;
-  max-width: 100vw;
+.socials {
+  position: fixed;
+  top: 120px;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
 }
 
-.resume-button img {
+.socials a {
   width: 30px;
+  margin: 10px 30px;
+  transition: opacity 0.15s ease-in-out;
+}
+
+.socials a:hover {
+  opacity: 0.5;
+}
+
+.socials a img {
+  width: 100%;
+  height: auto;
+}
+
+
+* {
+  max-height: 100vh;
+  max-width: 100vw;
 }
 
 .about-page {
   display: flex;
   flex-direction: column;
-  width: 100vw;
-  height: 100vh;
   padding: 0;
   margin: 0;
+  background-color: #31363F;
+  color: #EEEEEE;
 }
 .about-page .about-container {
   display: flex;
@@ -26,28 +47,6 @@
   width: 100%;
   padding: 30px;
   margin: 0;
-}
-.about-page .about-container .socials {
-  position: fixed;
-  top: 120px;
-  right: 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100px;
-}
-.about-page .about-container .socials a {
-  width: 30px;
-  margin: 10px 30px;
-  transition: opacity 0.15s ease-in-out;
-}
-.about-page .about-container .socials a:hover {
-  opacity: 0.5;
-}
-.about-page .about-container .socials a img {
-  width: 100%;
-  height: auto;
 }
 .about-page .about-container .top {
   display: flex;
@@ -81,6 +80,7 @@
   width: 100%;
   height: auto;
   margin-left: 10px;
+  border-radius: 10px;
 }
 @keyframes autoRun {
   from {

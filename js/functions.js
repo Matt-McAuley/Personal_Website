@@ -22,7 +22,7 @@ function createCard(cards) {
       githubLink.target = '_blank';
       githubLink.rel = 'noopener noreferrer';
       const githubIcon = document.createElement('img');
-      githubIcon.src = '../assets/icons/github.png';
+      githubIcon.src = '../assets/icons/github.svg';
       githubLink.className = 'github-link';
       githubLink.appendChild(githubIcon);
       cardElement.querySelector('.links').appendChild(githubLink);
