@@ -60,7 +60,7 @@
   transition: opacity 0.15s ease-in-out;
 }
 .resume-page .resume-container .socials a:hover {
-  opacity: 0.75;
+  opacity: 0.5;
 }
 .resume-page .resume-container .socials a img {
   width: 100%;

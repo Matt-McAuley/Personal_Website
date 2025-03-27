@@ -5,6 +5,10 @@
   max-width: 100vw;
 }
 
+.resume-button img {
+  width: 30px;
+}
+
 .about-page {
   display: flex;
   flex-direction: column;
@@ -39,7 +43,7 @@
   transition: opacity 0.15s ease-in-out;
 }
 .about-page .about-container .socials a:hover {
-  opacity: 0.75;
+  opacity: 0.5;
 }
 .about-page .about-container .socials a img {
   width: 100%;

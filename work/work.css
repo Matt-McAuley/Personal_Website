@@ -44,7 +44,7 @@ a:hover {
   transition: opacity 0.15s ease-in-out;
 }
 .work-page .work-container .socials a:hover {
-  opacity: 0.75;
+  opacity: 0.5;
 }
 .work-page .work-container .socials a img {
   width: 100%;
