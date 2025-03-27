@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Work</title>
   <link href="work.css" rel="stylesheet">
-  <link href="../bootstrap.css" rel="stylesheet">
+  <link href="../scss/bootstrap.css" rel="stylesheet">
 </head>
 
 <body>
@@ -23,13 +23,16 @@
             <a class="nav-link" href="../about">About</a>
           </li>
           <li class="nav-item mx-4">
-            <a class="nav-link" href="../resume">Resume</a>
-          </li>
-          <li class="nav-item mx-4">
             <a class="nav-link active" aria-current="page" href="../work">Work</a>
           </li>
           <li class="nav-item mx-4">
             <a class="nav-link" href="../projects">Projects</a>
+          </li>
+          <li class="nav-item mx-4">
+            <a class="nav-link resume-button" href="../assets/Matthew_McAuley_Resume.pdf" target="_blank" rel="noopener noreferrer" >
+              Resume
+              <img src="../assets/icons/link.svg" alt="See Resume" />
+            </a>
           </li>
         </ul>
       </div>
@@ -49,68 +52,11 @@
         <img src="../assets/icons/github-outline.svg" alt="GitHub" />
       </a>
     </div>
-    <div class="work-cards"></div>
+    <div class="cards"></div>
   </div>
 </div>
 
-  <script src="../bootstrap.bundle.js"></script>
+  <script src="../js/bootstrap.bundle.js"></script>
+  <script src="../js/pages/work/work.js" type="module" defer></script>
 </body>
-<script type="module" defer>
-  import cards from './data.js';
-  const workCardsContainer = document.querySelector('.work-cards');
-  cards.forEach(card => {
-    const cardElement = document.createElement('div');
-    cardElement.className = 'work-card';
-    cardElement.innerHTML = `
-      <img src="../assets/work/${card.image}" alt="${card.title}" class="work-image" />
-      <div class="work-info">
-        <div class="work-text">
-          <h3>${card.title}</h3>
-          <p>${card.description}</p>
-        </div>
-        <div class="info-bar">
-            <div class="tech"></div>
-            <div class="links"></div>
-        </div>
-      </div>
-    `;
-    if (card.has_github) {
-      const githubLink = document.createElement('a');
-      githubLink.href = card.github_link;
-      githubLink.target = '_blank';
-      githubLink.rel = 'noopener noreferrer';
-      const githubIcon = document.createElement('img');
-      githubIcon.src = '../assets/icons/github.png';
-      githubLink.className = 'github-link';
-      githubLink.appendChild(githubIcon);
-      cardElement.querySelector('.links').appendChild(githubLink);
-    }
-
-    if (card.has_demo) {
-      const demoLink = document.createElement('a');
-      demoLink.href = card.demo_link;
-      demoLink.target = '_blank';
-      demoLink.rel = 'noopener noreferrer';
-      const demoIcon = document.createElement('img');
-      demoIcon.src = '../assets/icons/link.svg';
-      demoLink.className = 'demo-link';
-      demoLink.appendChild(demoIcon);
-      cardElement.querySelector('.links').appendChild(demoLink);
-    }
-
-    if (!card.has_github && !card.has_demo) {
-      cardElement.querySelector('.links').style.display = 'none';
-    }
-
-    const techContainer = cardElement.querySelector('.tech');
-    card.icons.forEach(tech_icon => {
-      const techIcon = document.createElement('img');
-      techIcon.src = `../assets/icons/${tech_icon}`;
-      techIcon.alt = "Icon";
-      techIcon.className = 'tech-icon';
-      techContainer.appendChild(techIcon);
-    });
-    workCardsContainer.appendChild(cardElement);
-  });
-</script>
 </html>

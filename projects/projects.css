@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+.resume-button img {
+  width: 30px;
+}
+
 img {
   height: 100%;
   width: auto;

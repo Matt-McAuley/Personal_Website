@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+.resume-button img {
+  width: 30px;
+}
+
 img {
   height: 100%;
   width: auto;
@@ -39,9 +43,12 @@ a:hover {
   height: 100px;
 }
 .work-page .work-container .socials a {
+  display: flex;
+  place-content: center;
   width: 30px;
   margin: 10px 30px;
   transition: opacity 0.15s ease-in-out;
+  padding: 0;
 }
 .work-page .work-container .socials a:hover {
   opacity: 0.5;
