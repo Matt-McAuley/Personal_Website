@@ -65,6 +65,8 @@
   flex-direction: column;
   padding: 0;
   margin: 0;
+  height: 100vh;
+  width: 100vw;
   background-color: #31363F;
   color: #EEEEEE;
 }
@@ -110,7 +112,7 @@
   width: 100%;
   height: auto;
   margin-left: 10px;
-  border-radius: 10px;
+  border-radius: 15px;
 }
 @keyframes autoRun {
   from {
@@ -130,11 +132,11 @@
   min-width: calc(80px * var(--quantity));
   display: flex;
   align-items: center;
-  padding: 80px 0;
+  padding: 50px 0;
   position: relative;
 }
 .about-page .about-container .slider .icons .item {
-  width: 80px;
+  width: 60px;
   height: auto;
   margin: 0 50px;
   position: absolute;
@@ -142,8 +144,16 @@
   animation: autoRun 25s linear infinite;
   animation-delay: calc(25s / var(--quantity) * (var(--position) - 1));
 }
-.about-page .about-container .slider .icons .item img {
+.about-page .about-container .slider .icons .item path {
+  stroke: #31363F;
+  fill: #EEEEEE;
+}
+.about-page .about-container .slider .icons .item svg {
   width: 100%;
+}
+.about-page .about-container .slider .icons .item i {
+  font-size: 60px;
+  color: #EEEEEE;
 }
 
 /*# sourceMappingURL=about.css.map */
