@@ -1,3 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  border-bottom: 3px solid #EEEEEE;
+  background-color: #31363F;
+}
+.navbar .navbar-brand, .navbar .nav-link {
+  color: #EEEEEE !important;
+}
+.navbar .navbar-brand {
+  font-size: 30px;
+}
+.navbar .navbar-nav {
+  font-size: 20px;
+}
+.navbar a svg {
+  width: 30px;
+  height: auto;
+  stroke: #EEEEEE;
+  fill: #EEEEEE;
+}
+
 .socials {
   position: fixed;
   top: 120px;
@@ -8,22 +33,27 @@
   align-items: center;
   height: 100px;
 }
-
 .socials a {
   width: 30px;
   margin: 10px 30px;
   transition: opacity 0.15s ease-in-out;
 }
-
 .socials a:hover {
   opacity: 0.5;
 }
-
-.socials a img {
+.socials a svg {
   width: 100%;
   height: auto;
+  stroke: #EEEEEE;
+  fill: #31363F;
+}
+.socials a .email {
+  fill: #EEEEEE;
 }
 
+.resume-button img {
+  width: 30px;
+}
 
 * {
   max-height: 100vh;
