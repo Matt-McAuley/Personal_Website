@@ -56,10 +56,10 @@
 }
 
 a {
-  transition: opacity 0.15s ease-in-out;
+  transition: opacity 0.2s ease-in-out;
 }
 a:hover {
-  opacity: 0.75;
+  opacity: 0.5;
 }
 
 .cards {
