@@ -55,11 +55,9 @@
   width: 30px;
 }
 
-a {
-  transition: opacity 0.2s ease-in-out;
-}
-a:hover {
-  opacity: 0.5;
+img {
+  height: 100%;
+  width: auto;
 }
 
 .cards {
@@ -72,7 +70,7 @@ a:hover {
 .cards .card {
   cursor: pointer;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
   width: 85%;
   height: auto;
@@ -87,27 +85,33 @@ a:hover {
 .cards .card:hover {
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
-.cards .card .card-image {
+.cards .card .top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.cards .card .top .card-image {
   align-self: center;
   width: 38%;
 }
-.cards .card .card-info {
+.cards .card .top .card-info {
   width: 58%;
   min-height: 300px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
 }
-.cards .card .card-info .card-text {
+.cards .card .top .card-info .card-text {
   height: calc(100% - 75px);
 }
-.cards .card .card-info .card-text h3 {
+.cards .card .top .card-info .card-text h3 {
   margin-bottom: 10px;
 }
-.cards .card .card-info .card-text p {
+.cards .card .top .card-info .card-text p {
   margin-bottom: 10px;
 }
-.cards .card .card-info .info-bar {
+.cards .card .info-bar {
   height: 75px;
   gap: 10px;
   width: 100%;
@@ -116,7 +120,7 @@ a:hover {
   align-items: center;
   margin-top: 10px;
 }
-.cards .card .card-info .info-bar .tech {
+.cards .card .info-bar .tech {
   flex-grow: 1;
   border: 2px solid black;
   display: flex;
@@ -124,22 +128,28 @@ a:hover {
   align-items: center;
   padding: 10px;
 }
-.cards .card .card-info .info-bar .tech .tech-icon {
+.cards .card .info-bar .tech .tech-icon {
   height: 70px;
 }
-.cards .card .card-info .info-bar .links {
+.cards .card .info-bar .links {
   border: 2px solid black;
   display: flex;
   justify-content: space-around;
   align-items: center;
   padding: 10px;
 }
-.cards .card .card-info .info-bar .links .demo-link {
+.cards .card .info-bar .links .demo-link {
   height: 70px;
   margin-left: 20px;
 }
-.cards .card .card-info .info-bar .links .github-link {
+.cards .card .info-bar .links .github-link {
   height: 70px;
+}
+.cards .card .info-bar a {
+  transition: opacity 0.19s ease-in-out;
+}
+.cards .card .info-bar a:hover {
+  opacity: 0.5;
 }
 
 img {

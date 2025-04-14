@@ -4,16 +4,18 @@ function createCard(cards) {
     const cardElement = document.createElement('div');
     cardElement.className = 'card';
     cardElement.innerHTML = `
-      <img src="${card.image}" alt="${card.title}" class="card-image" />
-      <div class="card-info">
-        <div class="card-text">
-          <h3>${card.title}</h3>
-          <p>${card.description}</p>
+      <div class="top">
+        <img src="${card.image}" alt="${card.title}" class="card-image" />
+        <div class="card-info">
+          <div class="card-text">
+            <h3>${card.title}</h3>
+            <p>${card.description}</p>
+          </div>
         </div>
-        <div class="info-bar">
+      </div>
+      <div class="info-bar">
             <div class="tech"></div>
             <div class="links"></div>
-        </div>
       </div>
     `;
     if (card.has_github) {
