@@ -11,7 +11,7 @@ const cards =
       "new_tab": true,
       "has_github": false,
       "github_link": null,
-      "icons": ["c%23.png", "postgres.png", "redis.webp", "snowflake.png"]
+      "icons": ["https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg", "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dot-net/dot-net-original.svg", "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redis/redis-original.svg", "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg", "../../../assets/icons/snowflake-color.svg"]
     },
     {
       "id": 2,
@@ -24,7 +24,7 @@ const cards =
       "new_tab": true,
       "has_github": false,
       "github_link": null,
-      "icons": ["js.png", "react.png", "python.webp", "flask.png"]
+      "icons": ["https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg", "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg", "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg", "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flask/flask-original.svg"]
     }
     ]
 
