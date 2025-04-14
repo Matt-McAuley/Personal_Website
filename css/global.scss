@@ -6,11 +6,25 @@
 }
 
 .navbar {
-  border-bottom: 3px solid v.$primary-color;
   background-color: v.$background-color;
+  box-shadow: 0 3px 10px black;
 
-  .navbar-brand, .nav-link {
+  .navbar-brand {
     color: v.$primary-color !important;
+  }
+
+  .nav-link.active {
+    opacity: 1 !important;
+  }
+
+  .nav-link {
+    color: v.$primary-color !important;
+    opacity: .6;
+    transition: opacity .2s ease-in-out;
+
+    &:hover {
+      opacity: .9;
+    }
   }
 
   .navbar-brand {
@@ -19,16 +33,6 @@
 
   .navbar-nav {
     font-size: 20px;
-  }
-
-  a {
-
-    svg {
-      width: 30px;
-      height: auto;
-      stroke: v.$primary-color;
-      fill: v.$primary-color
-    }
   }
 }
 
@@ -64,9 +68,25 @@
   }
 }
 
-.resume-button {
 
-  img {
-    width: 30px;
+.nav-link.resume-button {
+  opacity: 1 !important;
+  border: 1px solid v.$secondary-color !important;
+  color: v.$secondary-color !important;
+  border-radius: 12px !important;
+  transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) !important;
+
+  &:hover {
+    border-radius: 5px !important;
+    background-color: v.$primary-color !important;
+    transform: translateY(-5px) scale(1.05) !important;
+    box-shadow: 0 5px 10px v.$primary-color !important;
+  }
+
+  svg {
+    width: 30px !important;
+    height: auto !important;
+    fill: v.$secondary-color !important;
+    stroke: v.$secondary-color !important;
   }
 }

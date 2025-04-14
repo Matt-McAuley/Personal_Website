@@ -4,23 +4,28 @@
 }
 
 .navbar {
-  border-bottom: 3px solid #EEEEEE;
   background-color: #31363F;
+  box-shadow: 0 3px 10px black;
 }
-.navbar .navbar-brand, .navbar .nav-link {
+.navbar .navbar-brand {
   color: #EEEEEE !important;
+}
+.navbar .nav-link.active {
+  opacity: 1 !important;
+}
+.navbar .nav-link {
+  color: #EEEEEE !important;
+  opacity: 0.6;
+  transition: opacity 0.2s ease-in-out;
+}
+.navbar .nav-link:hover {
+  opacity: 0.9;
 }
 .navbar .navbar-brand {
   font-size: 30px;
 }
 .navbar .navbar-nav {
   font-size: 20px;
-}
-.navbar a svg {
-  width: 30px;
-  height: auto;
-  stroke: #EEEEEE;
-  fill: #EEEEEE;
 }
 
 .socials {
@@ -51,8 +56,24 @@
   fill: #EEEEEE;
 }
 
-.resume-button img {
-  width: 30px;
+.nav-link.resume-button {
+  opacity: 1 !important;
+  border: 1px solid #76ABAE !important;
+  color: #76ABAE !important;
+  border-radius: 12px !important;
+  transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) !important;
+}
+.nav-link.resume-button:hover {
+  border-radius: 5px !important;
+  background-color: #EEEEEE !important;
+  transform: translateY(-5px) scale(1.05) !important;
+  box-shadow: 0 5px 10px #EEEEEE !important;
+}
+.nav-link.resume-button svg {
+  width: 30px !important;
+  height: auto !important;
+  fill: #76ABAE !important;
+  stroke: #76ABAE !important;
 }
 
 * {
