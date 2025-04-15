@@ -66,5 +66,9 @@
 
   <script src="/js/bootstrap.bundle.js"></script>
   <script src="/js/pages/projects/projects.js" type="module" defer></script>
+  <script defer>
+    const navBarBrand = document.querySelector('.navbar-brand');
+    navBarBrand.textContent = window.innerWidth <= 500 ? 'MM' : 'Matthew McAuley';
+  </script>
 </body>
 </html>

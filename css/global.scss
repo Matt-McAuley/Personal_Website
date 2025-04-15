@@ -9,6 +9,14 @@
   background-color: v.$background-color;
   box-shadow: 0 1px 10px black;
 
+  .navbar-toggler {
+    border-color: v.$primary-color !important;
+
+    .navbar-toggler-icon {
+      background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgb(238 238 238)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    }
+  }
+
   .navbar-brand {
     color: v.$primary-color !important;
   }
@@ -96,5 +104,47 @@
     fill: v.$primary-color !important;
     stroke: v.$primary-color !important;
     transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55) !important;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .resume-button {
+    margin-top: 8px !important;
+    display: flex !important;
+    place-content: center !important;
+    width: 140px !important;
+    padding: 5px 10px !important;
+  }
+
+  .socials {
+    position: fixed;
+    top: 120px;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+
+    a {
+      width: 1.5rem;
+      margin: 10px 1.5rem;
+      transition: opacity .15s ease-in-out;
+
+      &:hover {
+        opacity: .5;
+      }
+
+      svg {
+        width: 100%;
+        height: auto;
+        stroke: v.$primary-color;
+        fill: v.$background-color;
+      }
+
+      .email {
+        fill: v.$primary-color;
+      }
+    }
   }
 }
