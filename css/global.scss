@@ -71,22 +71,30 @@
 
 .nav-link.resume-button {
   opacity: 1 !important;
-  border: 1px solid v.$secondary-color !important;
-  color: v.$secondary-color !important;
+  border: 1px solid v.$primary-color !important;
+  color: v.$primary-color !important;
   border-radius: 12px !important;
-  transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) !important;
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55) !important;
 
   &:hover {
+    border: 1px solid black !important;
+    color: black !important;
     border-radius: 5px !important;
     background-color: v.$primary-color !important;
     transform: translateY(-5px) scale(1.05) !important;
-    box-shadow: 0 5px 10px v.$primary-color !important;
+    box-shadow: 0 5px 8px v.$primary-color !important;
+
+    svg {
+      fill: black !important;
+      stroke: black !important;
+    }
   }
 
   svg {
     width: 30px !important;
     height: auto !important;
-    fill: v.$secondary-color !important;
-    stroke: v.$secondary-color !important;
+    fill: v.$primary-color !important;
+    stroke: v.$primary-color !important;
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55) !important;
   }
 }
