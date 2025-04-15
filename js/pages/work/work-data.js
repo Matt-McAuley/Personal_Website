@@ -4,7 +4,7 @@ const cards =
       "id": 1,
       "title": "Octus",
       "description": "I worked as a backend software engineer for the app development team during my tenure as an intern. I helped design a C# API using the .NET framework to organize data on the CLO market into JSON tables. The tables could be grouped by Gics Sector, CLO Manager,  and CLO. Each contained relevant financial data on CLOs such as AUM, Revenue Growth, and Net Leverage. I wrote integration tests using the NUnit testing frameworks, dealt with caching filtered table values using Redis, and contributed to the services and repositories behind the many different endpoints. It was a great experience working with a large team across many different domains such as product, frontend, and data and seeing how complex software is built in a professional setting. At the end of my internship, the website was launched publicly to clients and is currently used by tens of thousands of financial institutions globally. It was an extremely rewarding experience and I learned about picking up new technologies quickly, writing clean and maintainable code, cross-team collaboration, advanced version control, agile software development, and much more. Click anywhere on this card to navigate to their website.\n",
-      "image": "/assets/work/Octus/octus.jpg",
+      "image": "/assets/work/Octus/octus.png",
       "has_demo": false,
       "demo_link": null,
       "card_click_link": "https://octus.com",
@@ -24,7 +24,7 @@ const cards =
       "new_tab": true,
       "has_github": false,
       "github_link": null,
-      "icons": ["https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg", "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg", "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg", "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flask/flask-original.svg"]
+      "icons": ["https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg", "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg", "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg", "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flask/flask-original.svg", "/assets/icons/robot.svg"]
     }
     ]
 

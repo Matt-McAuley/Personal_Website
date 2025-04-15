@@ -24,7 +24,7 @@ const cards =
       "new_tab": false,
       "has_github": true,
       "github_link": "https://github.com/matt-mcauley/GymBuddy",
-      "icons": ["https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg", "/assets/icons/expo.svg", "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg", "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sqlite/sqlite-original.svg"]
+      "icons": ["https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg", "/assets/icons/expo.svg", "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg", "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sqlite/sqlite-original.svg", "/assets/icons/phone.svg"]
     },
     {
       "id": 3,
@@ -50,7 +50,7 @@ const cards =
       "new_tab": false,
       "has_github": true,
       "github_link": "https://github.com/matt-mcauley/Caml_Capital",
-      "icons": ["https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/ocaml/ocaml-original.svg"]
+      "icons": ["https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/ocaml/ocaml-original.svg", "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg", "/assets/icons/controller.svg"]
     },
     {
       "id": 5,
@@ -63,7 +63,7 @@ const cards =
       "new_tab": true,
       "has_github": false,
       "github_link": null,
-      "icons": ["https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg", "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg"]
+      "icons": ["https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg", "/assets/icons/microcontroller.svg", "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg", "/assets/icons/controller.svg"]
     },
     {
       "id": 6,
