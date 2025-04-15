@@ -1,0 +1,20 @@
+body {
+  background-color: #31363F;
+  color: #EEEEEE;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+}
+body h1 {
+  font-size: 55px;
+  margin-bottom: 40px;
+}
+body p {
+  font-size: 30px;
+  margin: 0;
+}
+
+/*# sourceMappingURL=404.css.map */
