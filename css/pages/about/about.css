@@ -103,6 +103,11 @@
     margin: 5px 0;
   }
 }
+@media screen and (max-width: 500px) {
+  .navbar-brand {
+    font-weight: 900 !important;
+  }
+}
 * {
   max-height: 100vh;
   max-width: 100vw;

@@ -109,6 +109,7 @@
 }
 
 @media screen and (max-width: 900px) {
+
   .resume-button {
     margin-top: 8px !important;
     display: flex !important;
@@ -124,5 +125,11 @@
       width: 20px;
       margin: 5px 0;
     }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .navbar-brand {
+    font-weight: 900 !important;
   }
 }

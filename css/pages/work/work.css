@@ -103,6 +103,11 @@
     margin: 5px 0;
   }
 }
+@media screen and (max-width: 500px) {
+  .navbar-brand {
+    font-weight: 900 !important;
+  }
+}
 img {
   height: 100%;
   width: auto;
@@ -201,7 +206,7 @@ img {
 
 @media screen and (max-width: 900px) {
   .cards {
-    width: calc(100% - 5rem);
+    width: calc(100% - 35px);
   }
   .cards .card {
     min-height: 200px;
