@@ -25,3 +25,10 @@ img {
     }
   }
 }
+
+@media screen and (max-width: 900px) {
+
+  .work-page {
+    min-height: 100vh;
+  }
+}

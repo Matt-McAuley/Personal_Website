@@ -117,34 +117,10 @@
   }
 
   .socials {
-    position: fixed;
-    top: 120px;
-    right: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100px;
 
     a {
       width: 1.5rem;
       margin: 10px 1.5rem;
-      transition: opacity .15s ease-in-out;
-
-      &:hover {
-        opacity: .5;
-      }
-
-      svg {
-        width: 100%;
-        height: auto;
-        stroke: v.$primary-color;
-        fill: v.$background-color;
-      }
-
-      .email {
-        fill: v.$primary-color;
-      }
     }
   }
 }
