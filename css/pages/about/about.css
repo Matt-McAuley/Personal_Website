@@ -169,7 +169,7 @@
 }
 @keyframes autoRun {
   from {
-    left: 75%;
+    left: 102vw;
   }
   to {
     left: -100%;
