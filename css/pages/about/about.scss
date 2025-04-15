@@ -122,3 +122,79 @@
     }
   }
 }
+
+@media screen and (max-width: 900px) {
+  * {
+    max-height: none;
+  }
+
+  .about-page {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    min-height: 100vh;
+    height: auto;
+    width: 100vw;
+    background-color: v.$background-color;
+    color: v.$primary-color;
+
+    .about-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      flex-grow: 1;
+      width: calc(100% - 30px);
+      padding: 30px;
+      margin: 0;
+
+      .top {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 85%;
+
+        .text-area {
+          display: flex;
+          flex-direction: column;
+          align-items: start;
+          width: 100%;
+          height: 100%;
+          margin-right: 10px;
+
+          h1 {
+            font-size: 2rem;
+            margin-bottom: 10px;
+          }
+
+          p {
+            font-size: 1rem;
+          }
+        }
+
+        .img-area {
+          order: -1;
+          width: 100%;
+          display: flex;
+          justify-content: start;
+          align-items: center;
+          margin-bottom: 30px;
+
+          .img {
+            max-width: 400px;
+            width: 100%;
+            height: auto;
+            margin-left: 10px;
+            border-radius: 15px;
+          }
+        }
+      }
+
+      .slider {
+        display: none;
+      }
+    }
+  }
+}
