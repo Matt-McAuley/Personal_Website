@@ -27,6 +27,7 @@ function createCard(cards) {
       githubIcon.src = '../assets/icons/github.svg';
       githubLink.className = 'github-link';
       githubLink.appendChild(githubIcon);
+      githubLink.onclick = (e) => e.stopPropagation();
       cardElement.querySelector('.links').appendChild(githubLink);
     }
 
@@ -39,6 +40,7 @@ function createCard(cards) {
       demoIcon.src = '../assets/icons/link.svg';
       demoLink.className = 'demo-link';
       demoLink.appendChild(demoIcon);
+      demoLink.onclick = (e) => e.stopPropagation();
       cardElement.querySelector('.links').appendChild(demoLink);
     }
 
