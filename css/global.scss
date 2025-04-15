@@ -53,10 +53,11 @@
   justify-content: center;
   align-items: center;
   height: 100px;
+  margin: 0 10px;
 
   a {
     width: 30px;
-    margin: 10px 30px;
+    margin: 10px 0;
     transition: opacity .15s ease-in-out;
 
     &:hover {
@@ -118,9 +119,10 @@
 
   .socials {
 
+
     a {
-      width: 1.5rem;
-      margin: 10px 1.5rem;
+      width: 20px;
+      margin: 5px 0;
     }
   }
 }

@@ -130,14 +130,16 @@
 
   .about-page {
     height: auto;
+    min-height: 100vh;
 
     .about-container {
-      width: calc(100% - 1.5rem);
+      padding: 20px;
+      width: 100%;
 
       .top {
         display: flex;
         flex-direction: column;
-        width: 85%;
+        width: 100%;
 
         .text-area {
           width: 100%;
@@ -153,10 +155,12 @@
         }
 
         .img-area {
+          padding: 0;
           order: -1;
-          width: 100%;
+          width: calc(100% - 4rem);
           justify-content: start;
-          margin-bottom: 30px;
+          align-self: start;
+          margin-bottom: 15px;
 
           .img {
             max-width: 400px;
