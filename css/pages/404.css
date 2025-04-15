@@ -17,4 +17,13 @@ body p {
   margin: 0;
 }
 
+@media screen and (max-width: 900px) {
+  body h1 {
+    font-size: 35px;
+  }
+  body p {
+    font-size: 15px;
+  }
+}
+
 /*# sourceMappingURL=404.css.map */
