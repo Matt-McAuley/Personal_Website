@@ -24,7 +24,7 @@ function createCard(cards) {
       githubLink.target = '_blank';
       githubLink.rel = 'noopener noreferrer';
       const githubIcon = document.createElement('img');
-      githubIcon.src = '../assets/icons/github.svg';
+      githubIcon.src = '/assets/icons/github.svg';
       githubLink.className = 'github-link';
       githubLink.appendChild(githubIcon);
       githubLink.onclick = (e) => e.stopPropagation();
@@ -37,7 +37,7 @@ function createCard(cards) {
       demoLink.target = '_blank';
       demoLink.rel = 'noopener noreferrer';
       const demoIcon = document.createElement('img');
-      demoIcon.src = '../assets/icons/link.svg';
+      demoIcon.src = '/assets/icons/link.svg';
       demoLink.className = 'demo-link';
       demoLink.appendChild(demoIcon);
       demoLink.onclick = (e) => e.stopPropagation();
