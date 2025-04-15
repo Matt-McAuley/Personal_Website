@@ -98,14 +98,21 @@
     width: 140px !important;
     padding: 5px 10px !important;
   }
+  .socials {
+    top: 110px;
+  }
   .socials a {
-    width: 20px;
+    width: 25px;
     margin: 5px 0;
   }
 }
-@media screen and (max-width: 500px) {
-  .navbar-brand {
+@media screen and (max-width: 550px) {
+  .navbar-brand.ms-5 {
     font-weight: 900 !important;
+    margin-left: 0 !important;
+  }
+  .navbar-toggler.me-5 {
+    margin-right: 0 !important;
   }
 }
 img {
@@ -117,14 +124,14 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100%;
+  width: calc(100% - 150px);
 }
 .cards .card {
   cursor: pointer;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 85%;
+  width: 100%;
   height: auto;
   border: 1px solid black;
   margin: 30px 0;
@@ -178,7 +185,6 @@ img {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 10px;
 }
 .cards .card .info-bar .tech .tech-icon {
   height: 70px;
@@ -191,11 +197,12 @@ img {
   padding: 10px 30px;
 }
 .cards .card .info-bar .links .demo-link {
-  height: 70px;
-  margin-left: 30px;
+  height: 65px;
+  margin-left: 50px;
 }
 .cards .card .info-bar .links .github-link {
   height: 70px;
+  margin-left: 20px;
 }
 .cards .card .info-bar a {
   transition: opacity 0.19s ease-in-out;
@@ -206,7 +213,7 @@ img {
 
 @media screen and (max-width: 900px) {
   .cards {
-    width: calc(100% - 35px);
+    width: calc(100% - 110px);
   }
   .cards .card {
     min-height: 200px;
@@ -277,6 +284,9 @@ img {
 @media screen and (max-width: 900px) {
   .projects-page {
     min-height: 100vh;
+  }
+  .projects-page .projects-container {
+    padding: 20px 0;
   }
 }
 

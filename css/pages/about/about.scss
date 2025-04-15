@@ -157,13 +157,13 @@
         .img-area {
           padding: 0;
           order: -1;
-          width: calc(100% - 4rem);
+          width: calc(100% - 45px);
           justify-content: start;
           align-self: start;
           margin-bottom: 15px;
 
           .img {
-            max-width: 400px;
+            max-width: 450px;
           }
         }
       }
