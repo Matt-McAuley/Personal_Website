@@ -8,6 +8,7 @@ img {
 }
 
 .projects-page {
+  min-height: 100vh;
   padding: 0;
   margin: 0;
   background-color: v.$background-color;
@@ -25,10 +26,9 @@ img {
   }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 991px) {
 
   .projects-page {
-    min-height: 100vh;
 
     .projects-container {
       padding: 20px 0;
