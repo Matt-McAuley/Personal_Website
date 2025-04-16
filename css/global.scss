@@ -85,19 +85,20 @@
 
 .nav-link.resume-button {
   opacity: 1 !important;
-  border: 1px solid v.$primary-color !important;
   color: v.$primary-color !important;
+  background-color: v.$secondary-color;
+  box-shadow: 3px 5px 3px black !important;
   border-radius: 8px !important;
   transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55) !important;
   display: flex !important;
   justify-content: center !important;
   align-items: center !important;
-  width: 140px !important;
-  padding: 3px 10px !important;
+  width: 120px !important;
+  padding: 3px 7px !important;
 
   &:hover {
-    border: 1px solid black !important;
-    color: black !important;
+    border: 1px solid v.$secondary-color !important;
+    color: v.$secondary-color !important;
     border-radius: 3px !important;
     background-color: v.$primary-color !important;
     transform: translateY(-5px) scale(1.05) !important;
