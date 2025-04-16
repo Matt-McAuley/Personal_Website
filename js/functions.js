@@ -56,9 +56,9 @@ function createCard(cards) {
       techIcon.className = 'tech-icon';
       techContainer.appendChild(techIcon);
     });
-    cardElement.onclick = () => {
-      window.open(card.card_click_link, card.new_tab ? '_blank' : '_self');
-    };
+    // cardElement.onclick = () => {
+    //   window.open(card.card_click_link, card.new_tab ? '_blank' : '_self');
+    // };
     cardsContainer.appendChild(cardElement);
   });
 }
