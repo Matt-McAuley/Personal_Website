@@ -82,23 +82,11 @@
   padding: 3px 7px !important;
 }
 .nav-link.resume-button:hover {
-  border: 1px solid #2099ea !important;
   color: #2099ea !important;
   border-radius: 3px !important;
   background-color: #EEEEEE !important;
-  transform: translateY(-5px) scale(1.05) !important;
-  box-shadow: 0 5px 8px #EEEEEE !important;
-}
-.nav-link.resume-button:hover svg {
-  fill: black !important;
-  stroke: black !important;
-}
-.nav-link.resume-button svg {
-  width: 30px !important;
-  height: auto !important;
-  fill: #EEEEEE !important;
-  stroke: #EEEEEE !important;
-  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55) !important;
+  transform: scale(1.05) !important;
+  font-weight: 500;
 }
 
 @media screen and (max-width: 991px) {
