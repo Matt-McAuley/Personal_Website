@@ -22,7 +22,7 @@ img {
     align-items: center;
 
     .work-header {
-      width: 85%;
+      width: calc(100% - 180px);
     }
   }
 }
@@ -33,6 +33,10 @@ img {
 
     .work-container {
       padding: 20px 0;
+
+      .work-header {
+        width: calc(100% - 120px);
+      }
     }
   }
 }

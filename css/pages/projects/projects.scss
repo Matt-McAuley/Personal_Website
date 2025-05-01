@@ -21,7 +21,7 @@ img {
     align-items: center;
 
     .projects-header {
-      width: 85%;
+      width: calc(100% - 180px);
     }
   }
 }
@@ -32,6 +32,10 @@ img {
 
     .projects-container {
       padding: 20px 0;
+
+      .projects-header {
+        width: calc(100% - 120px);
+      }
     }
   }
 }

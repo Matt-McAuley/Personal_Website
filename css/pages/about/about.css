@@ -43,7 +43,7 @@
   justify-content: center;
   align-items: center;
   height: 100px;
-  margin: 0 10px;
+  margin: 0 30px;
 }
 .socials a {
   width: 30px;
@@ -94,6 +94,7 @@
     margin-top: 8px !important;
   }
   .socials {
+    margin: 15px;
     top: 110px;
   }
   .socials a {
@@ -241,7 +242,7 @@
   .about-page .about-container .top .img-area {
     padding: 0;
     order: -1;
-    width: calc(100% - 45px);
+    width: calc(100% - 50px);
     justify-content: start;
     align-self: start;
     margin-bottom: 15px;
