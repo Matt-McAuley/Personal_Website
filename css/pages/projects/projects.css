@@ -145,6 +145,7 @@ img {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 30px;
 }
 .cards .card .top .card-image {
   align-self: center;
