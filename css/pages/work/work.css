@@ -208,6 +208,7 @@ img {
   animation: fadeIn 0.5s ease;
   box-shadow: 0 5px 8px black, 0 6px 7px black;
   transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
+  overflow: hidden;
 }
 .work-page .work-container .cards .card.active {
   display: block;
@@ -231,17 +232,11 @@ img {
   color: #31363F;
   font-weight: bold;
 }
-.work-page .work-container .cards .card ul {
-  margin: 1rem 0 0 1rem;
-  padding: 0;
-}
-.work-page .work-container .cards .card ul li {
-  margin-bottom: 0.75rem;
-  line-height: 1.4;
+.work-page .work-container .cards .card .description {
+  overflow-y: auto;
+  flex: 1;
   color: #31363F;
-}
-.work-page .work-container .cards .card ul li strong {
-  color: #2099ea;
+  max-height: calc(100vh - 500px);
 }
 .work-page .work-container .cards .card .icons {
   position: relative;
