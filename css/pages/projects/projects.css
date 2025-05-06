@@ -287,6 +287,7 @@ img {
     margin: 15px 0;
   }
   .cards .card .top {
+    width: 100%;
     flex-grow: 1;
     flex-direction: column;
     align-items: center;
@@ -294,12 +295,12 @@ img {
     margin-bottom: 5px;
   }
   .cards .card .top .slideshow {
-    width: 297px;
-    height: 167px;
+    width: 100%;
+    height: 56.25%;
   }
   .cards .card .top .slideshow .slide .card-image {
-    width: 297px;
-    height: 167px;
+    width: 100%;
+    height: 56.25%;
   }
   .cards .card .top .slideshow .slide .prev, .cards .card .top .slideshow .slide .next {
     padding: 6px;
