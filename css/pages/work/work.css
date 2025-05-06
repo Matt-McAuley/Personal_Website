@@ -258,8 +258,7 @@ img {
 .work-page .work-container .cards .card .icons .icon span {
   display: none;
   position: absolute;
-  top: 68px;
-  height: 20px;
+  top: 70px;
   font-weight: bold;
 }
 .work-page .work-container .cards .card .icons .icon img {
