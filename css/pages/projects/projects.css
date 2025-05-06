@@ -144,16 +144,17 @@ img {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
+  align-items: start;
   margin-bottom: 30px;
 }
 .cards .card .top .card-image {
   align-self: center;
-  width: 38%;
+  width: 650px;
+  height: 365px;
 }
 .cards .card .top .card-info {
-  width: 58%;
-  min-height: 300px;
+  flex-grow: 1;
+  margin-left: 30px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -162,10 +163,14 @@ img {
   height: calc(100% - 75px);
 }
 .cards .card .top .card-info .card-text h3 {
+  font-size: 35px;
   margin-bottom: 10px;
   color: #2099ea;
 }
 .cards .card .top .card-info .card-text p {
+  max-height: 323px;
+  overflow: auto;
+  font-size: 18px;
   margin-bottom: 10px;
   color: #31363F;
 }
