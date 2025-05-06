@@ -7,8 +7,6 @@ const cards =
       "images": ["Exercise_Engine", "home.png", "results.png"],
       "has_demo": true,
       "demo_link": "http://18.218.132.35/",
-      "card_click_link": "/projects/Exercise_Engine",
-      "new_tab": false,
       "has_github": true,
       "github_link": "https://github.com/matt-mcauley/Exercise_Engine",
       "icons": [["https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg", "HTML"], ["https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg", "CSS"], ["https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg", "JavaScript"], ["https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg", "Python"], ["https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flask/flask-original.svg", "Flask"], ["https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg", "AWS"]]
@@ -20,8 +18,6 @@ const cards =
       "images": ["GymBuddy", "home.png", "music.png", "programs.png"],
       "has_demo": false,
       "demo_link": null,
-      "card_click_link": "/projects/GymBuddy",
-      "new_tab": false,
       "has_github": true,
       "github_link": "https://github.com/matt-mcauley/GymBuddy",
       "icons": [["https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg", "TypeScript"], ["/assets/icons/expo.svg", "Expo"], ["https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg", "React"], ["https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sqlite/sqlite-original.svg", "SQLite"], ["/assets/icons/phone.svg", "Mobile"]]
@@ -33,8 +29,6 @@ const cards =
       "images": ["To-Do_Manager", "home.png", "login.png", "signup.png"],
       "has_demo": true,
       "demo_link": "http://150.136.36.76/",
-      "card_click_link": "/projects/To-Do_Manager",
-      "new_tab": false,
       "has_github": true,
       "github_link": "https://github.com/matt-mcauley/To-Do_Manager",
       "icons": [["https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg", "TypeScript"], ["https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg", "React"], ["https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg", "Python"], ["https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flask/flask-original.svg", "Flask"], ["https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sqlalchemy/sqlalchemy-original.svg", "SQLAlchemy"], ["https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sqlite/sqlite-original.svg", "SQLite"]]
@@ -46,8 +40,6 @@ const cards =
       "images": ["Caml_Capital", "start.png", "midgame.png"],
       "has_demo": false,
       "demo_link": null,
-      "card_click_link": "/projects/Caml_Capital",
-      "new_tab": false,
       "has_github": true,
       "github_link": "https://github.com/matt-mcauley/Caml_Capital",
       "icons": [["https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/ocaml/ocaml-original.svg", "OCaml"], ["https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg", "Git"], ["/assets/icons/controller.svg", "Game Dev"]]
@@ -57,10 +49,8 @@ const cards =
       "title": "Embedded Jump",
       "description": "This project was created to better understand low level programming and interacting with microcontrollers such as the FRDM-KL46Z. We developed a recreation of the popular mobile game ‘Doodle Jump’ which was controlled using the hardware on the board. The accelerometer controls horizontal movement, while the buttons deal with shooting obstacles. The game recreation was done with Python using the Pygame library and the functions related to movement and controls were coded in C. One major challenge was communicating between the Python application running on a laptop on the C application running on the board which we solved through UART serial communication libraries. I learned about game development with Python as well as the features unique to a low level application like interrupts, pointers, and memory allocation. Click anywhere on this card to navigate to a more in depth look at the project along with images and videos.\n",
       "images": ["Embedded_Jump", "diagram.png"],
-      "has_demo": false,
-      "demo_link": null,
-      "card_click_link": "https://pages.github.coecis.cornell.edu/ece3140-sp2024/mwm223-sd699/",
-      "new_tab": true,
+      "has_demo": true,
+      "demo_link": "https://pages.github.coecis.cornell.edu/ece3140-sp2024/mwm223-sd699/",
       "has_github": false,
       "github_link": null,
       "icons": [["https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg", "C"], ["/assets/icons/microcontroller.svg", "Embedded"], ["https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg", "Python"], ["/assets/icons/controller.svg", "Game Dev"]]
@@ -68,12 +58,10 @@ const cards =
     {
       "id": 6,
       "title": "Calculator",
-      "description": "This project was created to better understand low level programming and interacting with microcontrollers such as the FRDM-KL46Z. We developed a recreation of the popular mobile game ‘Doodle Jump’ which was controlled using the hardware on the board. The accelerometer controls horizontal movement, while the buttons deal with shooting obstacles. The game recreation was done with Python using the Pygame library and the functions related to movement and controls were coded in C. One major challenge was communicating between the Python application running on a laptop on the C application running on the board which we solved through UART serial communication libraries. I learned about game development with Python as well as the features unique to a low level application like interrupts, pointers, and memory allocation. Click anywhere on this card to navigate to a more in depth look at the project along with images and videos.\n",
+      "description": "This project is a simple calculator app in the browser that supports basic arithmetic operations such as addition, subtraction, division, and multiplication. It was created using HTML, CSS, and Javascript. It was one of my first introductions to the world of web development and frontend technologies. Click the GitHub icon to check out the repository or click anywhere on this card to navigate to a more in depth look at the project along with images and videos.\n",
       "images": ["Calculator", "home.png"],
       "has_demo": true,
       "demo_link": "https://matt-mcauley.github.io/Calculator",
-      "card_click_link": "/projects/Calculator",
-      "new_tab": false,
       "has_github": true,
       "github_link": "https://github.com/matt-mcauley/Calculator",
       "icons": [["https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg", "HTML"], ["https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg", "CSS"], ["https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg", "JavaScript"]]
@@ -85,8 +73,6 @@ const cards =
       "images": ["Etch-A-Sketch", "home.png"],
       "has_demo": true,
       "demo_link": "https://matt-mcauley.github.io/Etch-A-Sketch",
-      "card_click_link": "/projects/Etch-A-Sketch",
-      "new_tab": false,
       "has_github": true,
       "github_link": "https://github.com/matt-mcauley/Etch-A-Sketch",
       "icons": [["https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg", "HTML"], ["https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg", "CSS"], ["https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg", "JavaScript"]]

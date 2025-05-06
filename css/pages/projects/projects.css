@@ -123,7 +123,6 @@ img {
   width: calc(100% - 220px);
 }
 .cards .card {
-  cursor: pointer;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -132,13 +131,8 @@ img {
   border: 1px solid black;
   margin: 30px 0;
   box-shadow: 0 5px 8px black, 0 6px 7px black;
-  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
   padding: 30px;
   background-color: #EEEEEE;
-}
-.cards .card:hover {
-  transform: scale(1.01);
-  box-shadow: 0 14px 28px black, 0 10px 10px black;
 }
 .cards .card .top {
   display: flex;
@@ -265,10 +259,11 @@ img {
   justify-content: space-between;
   align-items: center;
   padding: 10px 30px;
+  gap: 30px;
 }
 .cards .card .info-bar .links .demo-link {
   height: 65px;
-  margin-left: 50px;
+  margin-left: 20px;
 }
 .cards .card .info-bar .links .github-link {
   height: 70px;
