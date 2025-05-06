@@ -66,7 +66,7 @@ img {
     }
 
     .info-bar {
-      height: 75px;
+      height: 90px;
       gap: 10px;
       width: 100%;
       display: flex;
@@ -81,7 +81,29 @@ img {
         align-items: center;
 
         .tech-icon {
-          height: 70px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          height: 90px;
+          position: relative;
+
+          img {
+            height: 70px;
+          }
+
+          .name {
+            display: none;
+            position: absolute;
+            top: 85px;
+            font-weight: bold;
+            font-size: 18px;
+            color: v.$background-color;
+          }
+
+          &:hover .name {
+            display: block;
+          }
         }
       }
 

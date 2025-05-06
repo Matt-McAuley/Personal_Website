@@ -153,21 +153,21 @@ img {
           display: flex;
           justify-content: space-around;
           margin-top: 30px;
-          height: 75px;
+          height: 85px;
 
           .icon {
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            color: v.$secondary-color;
-            font-size: 20px;
+            font-weight: bold;
+            font-size: 18px;
+            color: v.$background-color;
 
             span {
               display: none;
               position: absolute;
-              top: 70px;
-              font-weight: bold;
+              top: 80px;
             }
 
             img {

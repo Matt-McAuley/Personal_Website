@@ -50,9 +50,11 @@ function createCard(cards) {
 
     const techContainer = cardElement.querySelector('.tech');
     card.icons.forEach(tech_icon => {
-      const techIcon = document.createElement('img');
-      techIcon.src = tech_icon;
-      techIcon.alt = "Icon";
+      const techIcon = document.createElement('div');
+      techIcon.innerHTML = `
+      <img src="${tech_icon[0]}" alt="${tech_icon[1]} icon"/>
+      <p class="name">${tech_icon[1]}</p>
+      `
       techIcon.className = 'tech-icon';
       techContainer.appendChild(techIcon);
     });

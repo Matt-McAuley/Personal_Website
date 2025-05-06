@@ -11,7 +11,7 @@ const cards =
       "new_tab": false,
       "has_github": true,
       "github_link": "https://github.com/matt-mcauley/Exercise_Engine",
-      "icons": ["https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg", "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg", "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg", "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg", "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flask/flask-original.svg", "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg"]
+      "icons": [["https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg", "HTML"], ["https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg", "CSS"], ["https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg", "JavaScript"], ["https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg", "Python"], ["https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flask/flask-original.svg", "Flask"], ["https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg", "AWS"]]
     },
     {
       "id": 2,
@@ -24,7 +24,7 @@ const cards =
       "new_tab": false,
       "has_github": true,
       "github_link": "https://github.com/matt-mcauley/GymBuddy",
-      "icons": ["https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg", "/assets/icons/expo.svg", "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg", "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sqlite/sqlite-original.svg", "/assets/icons/phone.svg"]
+      "icons": [["https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg", "TypeScript"], ["/assets/icons/expo.svg", "Expo"], ["https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg", "React"], ["https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sqlite/sqlite-original.svg", "SQLite"], ["/assets/icons/phone.svg", "Mobile"]]
     },
     {
       "id": 3,
@@ -37,7 +37,7 @@ const cards =
       "new_tab": false,
       "has_github": true,
       "github_link": "https://github.com/matt-mcauley/To-Do_Manager",
-      "icons": ["https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg", "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg", "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg", "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flask/flask-original.svg", "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sqlalchemy/sqlalchemy-original.svg", "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sqlite/sqlite-original.svg", "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/oracle/oracle-original.svg"]
+      "icons": [["https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg", "TypeScript"], ["https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg", "React"], ["https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg", "Python"], ["https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flask/flask-original.svg", "Flask"], ["https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sqlalchemy/sqlalchemy-original.svg", "SQLAlchemy"], ["https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sqlite/sqlite-original.svg", "SQLite"]]
     },
     {
       "id": 4,
@@ -50,7 +50,7 @@ const cards =
       "new_tab": false,
       "has_github": true,
       "github_link": "https://github.com/matt-mcauley/Caml_Capital",
-      "icons": ["https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/ocaml/ocaml-original.svg", "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg", "/assets/icons/controller.svg"]
+      "icons": [["https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/ocaml/ocaml-original.svg", "OCaml"], ["https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg", "Git"], ["/assets/icons/controller.svg", "Game Dev"]]
     },
     {
       "id": 5,
@@ -63,7 +63,7 @@ const cards =
       "new_tab": true,
       "has_github": false,
       "github_link": null,
-      "icons": ["https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg", "/assets/icons/microcontroller.svg", "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg", "/assets/icons/controller.svg"]
+      "icons": [["https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg", "C"], ["/assets/icons/microcontroller.svg", "Embedded"], ["https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg", "Python"], ["/assets/icons/controller.svg", "Game Dev"]]
     },
     {
       "id": 6,
@@ -76,7 +76,7 @@ const cards =
       "new_tab": false,
       "has_github": true,
       "github_link": "https://github.com/matt-mcauley/Calculator",
-      "icons": ["https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg", "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg", "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"]
+      "icons": [["https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg", "HTML"], ["https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg", "CSS"], ["https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg", "JavaScript"]]
     },
     {
       "id": 7,
@@ -89,7 +89,7 @@ const cards =
       "new_tab": false,
       "has_github": true,
       "github_link": "https://github.com/matt-mcauley/Etch-A-Sketch",
-      "icons": ["https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg", "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg", "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"]
+      "icons": [["https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg", "HTML"], ["https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg", "CSS"], ["https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg", "JavaScript"]]
     }
 ];
 
