@@ -103,20 +103,20 @@
           display: flex;
           flex-direction: column;
           align-items: center;
+          gap: 5px;
           left: 100%;
           animation: autoRun 25s linear infinite;
           animation-delay: calc( (25s / var(--quantity)) * (var(--position) - 1) );
 
           .icon-tooltip {
-            display: none;
-            position: absolute;
-            top: 65px;
             font-weight: bold;
             color: v.$primary-color;
+            opacity: 0;
+            transition: all .12s ease-in-out;
           }
 
           &:hover .icon-tooltip {
-            display: block;
+            opacity: 1;
           }
 
           path {

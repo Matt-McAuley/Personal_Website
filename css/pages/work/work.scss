@@ -116,13 +116,14 @@ img {
         h2 {
           margin: 0;
           font-size: 2rem;
-          color: v.$secondary-color;
+          color: v.$background-color;
         }
 
         .role {
           margin: 0.5rem 0 1rem;
           font-size: 1.2rem;
           color: v.$secondary-color;
+          font-weight: 500;
         }
 
         .date-range {
@@ -131,6 +132,7 @@ img {
           right: 2rem;
           font-size: 1.2rem;
           color: v.$background-color;
+          font-weight: bold;
         }
 
         ul {
@@ -152,7 +154,7 @@ img {
           position: relative;
           display: flex;
           justify-content: space-around;
-          margin-top: 30px;
+          margin-top: 20px;
           height: 85px;
 
           .icon {
@@ -165,7 +167,8 @@ img {
             color: v.$background-color;
 
             span {
-              display: none;
+              opacity: 0;
+              transition: all .12s ease-in-out;
               position: absolute;
               top: 80px;
             }
@@ -175,7 +178,7 @@ img {
             }
 
             &:hover span {
-              display: block;
+              opacity: 1;
             }
           }
         }

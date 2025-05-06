@@ -93,7 +93,8 @@ img {
           }
 
           .name {
-            display: none;
+            opacity: 0;
+            transition: all .12s ease-in-out;
             position: absolute;
             top: 85px;
             font-weight: bold;
@@ -102,7 +103,7 @@ img {
           }
 
           &:hover .name {
-            display: block;
+            opacity: 1;
           }
         }
       }

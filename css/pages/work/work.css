@@ -214,12 +214,13 @@ img {
 .work-page .work-container .cards .card h2 {
   margin: 0;
   font-size: 2rem;
-  color: #2099ea;
+  color: #31363F;
 }
 .work-page .work-container .cards .card .role {
   margin: 0.5rem 0 1rem;
   font-size: 1.2rem;
   color: #2099ea;
+  font-weight: 500;
 }
 .work-page .work-container .cards .card .date-range {
   position: absolute;
@@ -227,6 +228,7 @@ img {
   right: 2rem;
   font-size: 1.2rem;
   color: #31363F;
+  font-weight: bold;
 }
 .work-page .work-container .cards .card ul {
   margin: 1rem 0 0 1rem;
@@ -244,7 +246,7 @@ img {
   position: relative;
   display: flex;
   justify-content: space-around;
-  margin-top: 30px;
+  margin-top: 20px;
   height: 85px;
 }
 .work-page .work-container .cards .card .icons .icon {
@@ -257,7 +259,8 @@ img {
   color: #31363F;
 }
 .work-page .work-container .cards .card .icons .icon span {
-  display: none;
+  opacity: 0;
+  transition: all 0.12s ease-in-out;
   position: absolute;
   top: 80px;
 }
@@ -265,7 +268,7 @@ img {
   height: 65px;
 }
 .work-page .work-container .cards .card .icons .icon:hover span {
-  display: block;
+  opacity: 1;
 }
 @keyframes fadeIn {
   from {
