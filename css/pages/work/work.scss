@@ -21,20 +21,19 @@ img {
     align-items: center;
 
     .work-header {
-      width: calc(100% - 180px);
+      width: calc(100% - 220px);
     }
 
     .timeline {
-      width: calc(100% - 180px);
+      width: calc(100% - 220px);
       display: flex;
       align-items: flex-start;
-      padding: 2rem;
-      margin: 0 auto;
+      margin: 30px 0;
     }
 
     .experiences {
       position: relative;
-      width: 300px;
+      width: 280px;
       margin-right: 2rem;
 
       ul {
@@ -49,8 +48,9 @@ img {
           padding-left: 32px;
           cursor: pointer;
           transition: color 0.3s;
-          color: rgba(204,214,246,0.7);
-          line-height: 1.2;
+          line-height: 2;
+          font-size: 23px;
+          color: rgba(v.$primary-color, 0.75);
 
           &::before {
             content: '';
@@ -67,12 +67,13 @@ img {
           }
 
           &.active {
-            color: #60bfff;
+            color: v.$secondary-color;
             font-weight: 600;
+            opacity: 1;
 
             &::before {
               left: .1%;
-              background: #60bfff;
+              background: v.$secondary-color;
               width: 14px;
               height: 14px;
             }

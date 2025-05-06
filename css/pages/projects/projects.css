@@ -120,7 +120,7 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: calc(100% - 180px);
+  width: calc(100% - 220px);
 }
 .cards .card {
   cursor: pointer;
@@ -297,7 +297,7 @@ img {
   align-items: center;
 }
 .projects-page .projects-container .projects-header {
-  width: calc(100% - 180px);
+  width: calc(100% - 220px);
 }
 
 @media screen and (max-width: 991px) {
