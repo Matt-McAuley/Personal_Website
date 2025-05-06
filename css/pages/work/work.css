@@ -258,6 +258,7 @@ img {
   font-weight: bold;
   font-size: 18px;
   color: #31363F;
+  width: 90px;
 }
 .work-page .work-container .cards .card .icons .icon span {
   opacity: 0;
@@ -267,6 +268,7 @@ img {
 }
 .work-page .work-container .cards .card .icons .icon img {
   height: 65px;
+  width: 65px;
 }
 .work-page .work-container .cards .card .icons .icon:hover span {
   opacity: 1;

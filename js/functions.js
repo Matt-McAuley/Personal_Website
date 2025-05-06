@@ -3,9 +3,18 @@ function createCard(cards) {
   cards.forEach(card => {
     const cardElement = document.createElement('div');
     cardElement.className = 'card';
+    const imgDirectory = `/assets/projects/${card.images[0]}/`;
     cardElement.innerHTML = `
       <div class="top">
-        <img src="${card.image}" alt="${card.title}" class="card-image" />
+        <div class="slideshow">
+            ${card.images.slice(1).map((image, index) => `
+            <div class="slide" data-project="${card.title}">
+              <img src="${imgDirectory}/${image}" alt="${card.title}" class="card-image"/>
+              <a class="prev" data-project="${card.title}">&#10094;</a>
+              <a class="next" data-project="${card.title}">&#10095;</a>
+            </div>
+            `).join('')}
+        </div>
         <div class="card-info">
           <div class="card-text">
             <h3>${card.title}</h3>

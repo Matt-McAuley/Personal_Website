@@ -166,6 +166,7 @@ img {
             font-weight: bold;
             font-size: 18px;
             color: v.$background-color;
+            width: 90px;
 
             span {
               opacity: 0;
@@ -176,6 +177,7 @@ img {
 
             img {
               height: 65px;
+              width: 65px;
             }
 
             &:hover span {
