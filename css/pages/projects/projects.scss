@@ -31,7 +31,8 @@ img {
   .projects-page {
 
     .projects-container {
-      padding: 20px 0;
+      padding: 20px;
+      align-items: flex-start;
 
       .projects-header {
         width: calc(100% - 120px);

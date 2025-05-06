@@ -114,7 +114,6 @@ img {
           display: block;
         }
 
-
         h2 {
           margin: 0;
           font-size: 2rem;
@@ -203,6 +202,99 @@ img {
 
       .work-header {
         width: calc(100% - 120px);
+      }
+
+      .timeline {
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        width: 100%;
+        margin: 0 0;
+
+        .experiences {
+          align-self: center;
+          width: auto;
+
+          li {
+            font-size: 15px;
+            line-height: .3;
+
+            &::before {
+              width: 9px;
+              height: 9px;
+              left: 1.1%;
+            }
+
+            &.active {
+
+              &::before {
+                width: 10px;
+                height: 10px;
+                left: .8%;
+              }
+            }
+          }
+        }
+
+        .cards {
+          align-self: start;
+          width: 100%;
+
+
+          .card {
+            width: 100%;
+            padding: .8rem;
+
+            h2 {
+              font-size: 1.4rem;
+            }
+
+            .role {
+              font-size: 1.1rem;
+              margin: 0.2rem 0 .3rem;
+            }
+
+            .date-range {
+              font-size: .8rem;
+              display: flex;
+              flex-direction: column;
+              align-items: flex-end;
+              top: 1.2rem;
+              right: 1.2rem;
+
+              .date-dash {
+                display: none;
+              }
+            }
+
+            // Change this if you add more companies
+            .description {
+              max-height: calc(100vh - 600px);
+              font-size: .8rem;
+            }
+
+            .icons {
+              height: 65px;
+              margin-top: 10px;
+
+              .icon {
+                width: 70px;
+                font-size: 15px;
+
+                img {
+                  height: 40px;
+                  width: 40px;
+                }
+
+                span {
+                  top: 55px;
+                  font-size: 12px;
+                }
+              }
+            }
+          }
+        }
       }
     }
   }

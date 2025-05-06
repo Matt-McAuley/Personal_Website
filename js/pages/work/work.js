@@ -15,7 +15,7 @@ experiences.reverse().forEach((experience, idx) => {
   card.innerHTML = `
   <h2>${experience.title}</h2>
   <div class="role">${experience.role}</div>
-  <div class="date-range">${experience.startDate} – ${experience.endDate}</div>
+  <div class="date-range"><span class="date-start">${experience.startDate}</span><span class="date-dash"> – </span><span class="date-end">${experience.endDate}</span></div>
   <p class="description">${experience.description}</p>
   <div class="icons">
     ${experience.icons.map(icon => `

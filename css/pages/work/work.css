@@ -286,6 +286,78 @@ img {
   .work-page .work-container .work-header {
     width: calc(100% - 120px);
   }
+  .work-page .work-container .timeline {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+    margin: 0 0;
+  }
+  .work-page .work-container .timeline .experiences {
+    align-self: center;
+    width: auto;
+  }
+  .work-page .work-container .timeline .experiences li {
+    font-size: 15px;
+    line-height: 0.3;
+  }
+  .work-page .work-container .timeline .experiences li::before {
+    width: 9px;
+    height: 9px;
+    left: 1.1%;
+  }
+  .work-page .work-container .timeline .experiences li.active::before {
+    width: 10px;
+    height: 10px;
+    left: 0.8%;
+  }
+  .work-page .work-container .timeline .cards {
+    align-self: start;
+    width: 100%;
+  }
+  .work-page .work-container .timeline .cards .card {
+    width: 100%;
+    padding: 0.8rem;
+  }
+  .work-page .work-container .timeline .cards .card h2 {
+    font-size: 1.4rem;
+  }
+  .work-page .work-container .timeline .cards .card .role {
+    font-size: 1.1rem;
+    margin: 0.2rem 0 0.3rem;
+  }
+  .work-page .work-container .timeline .cards .card .date-range {
+    font-size: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    top: 1.2rem;
+    right: 1.2rem;
+  }
+  .work-page .work-container .timeline .cards .card .date-range .date-dash {
+    display: none;
+  }
+  .work-page .work-container .timeline .cards .card .description {
+    max-height: calc(100vh - 600px);
+    font-size: 0.8rem;
+  }
+  .work-page .work-container .timeline .cards .card .icons {
+    height: 65px;
+    margin-top: 10px;
+  }
+  .work-page .work-container .timeline .cards .card .icons .icon {
+    width: 70px;
+    font-size: 15px;
+  }
+  .work-page .work-container .timeline .cards .card .icons .icon img {
+    height: 40px;
+    width: 40px;
+  }
+  .work-page .work-container .timeline .cards .card .icons .icon span {
+    top: 55px;
+    font-size: 12px;
+  }
 }
 
 /*# sourceMappingURL=work.css.map */
