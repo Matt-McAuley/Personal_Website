@@ -16,54 +16,22 @@ const experiences =
       "description": "I worked as a backend software engineer for the app development team during my tenure as an intern. I helped design a C# API using the .NET framework to organize data on the CLO market into JSON tables. The tables could be grouped by Gics Sector, CLO Manager,  and CLO. Each contained relevant financial data on CLOs such as AUM, Revenue Growth, and Net Leverage. I wrote integration tests using the NUnit testing frameworks, dealt with caching filtered table values using Redis, and contributed to the services and repositories behind the many different endpoints. It was a great experience working with a large team across many different domains such as product, frontend, and data and seeing how complex software is built in a professional setting. At the end of my internship, the website was launched publicly to clients and is currently used by tens of thousands of financial institutions globally. It was an extremely rewarding experience and I learned about picking up new technologies quickly, writing clean and maintainable code, cross-team collaboration, advanced version control, agile software development, and much more.\n",
       "icons": [["https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg", "C#"], ["https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dot-net/dot-net-original.svg", ".NET"], ["https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redis/redis-original.svg", "Redis"], ["https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg", "Postgres"], ["/assets/icons/snowflake-color.svg", "Snowflake"]]
     },
-    {
-      "title": "S&P Global",
-      "role": "Software Engineer Intern",
-      "startDate": "June 2025",
-      "endDate": "August 2025",
-      "description": "Incoming SWE Intern for Summer 2025",
-      "icons": []
-    },
-    {
-      "title": "Octus",
-      "role": "Software Engineer",
-      "startDate": "December 2025",
-      "endDate": "Current",
-      "description": "Incoming SWE in December 2025",
-      "icons": []
-    },
-    {
-      "title": "S&P Global",
-      "role": "Software Engineer Intern",
-      "startDate": "June 2025",
-      "endDate": "August 2025",
-      "description": "Incoming SWE Intern for Summer 2025",
-      "icons": []
-    },
-    {
-      "title": "Octus",
-      "role": "Software Engineer",
-      "startDate": "December 2025",
-      "endDate": "Current",
-      "description": "Incoming SWE in December 2025",
-      "icons": []
-    },
-    {
-      "title": "S&P Global",
-      "role": "Software Engineer Intern",
-      "startDate": "June 2025",
-      "endDate": "August 2025",
-      "description": "Incoming SWE Intern for Summer 2025",
-      "icons": []
-    },
-    {
-      "title": "Octus",
-      "role": "Software Engineer",
-      "startDate": "December 2025",
-      "endDate": "Current",
-      "description": "Incoming SWE in December 2025",
-      "icons": []
-    },
+    // {
+    //   "title": "S&P Global",
+    //   "role": "Software Engineer Intern",
+    //   "startDate": "June 2025",
+    //   "endDate": "August 2025",
+    //   "description": "Incoming SWE Intern for Summer 2025",
+    //   "icons": []
+    // },
+    // {
+    //   "title": "Octus",
+    //   "role": "Software Engineer",
+    //   "startDate": "December 2025",
+    //   "endDate": "Current",
+    //   "description": "Incoming SWE in December 2025",
+    //   "icons": []
+    // },
     ]
 
 export default experiences;
