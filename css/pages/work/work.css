@@ -136,6 +136,7 @@ img {
   width: calc(100% - 220px);
   display: flex;
   margin: 30px 0;
+  align-items: flex-start;
 }
 .work-page .work-container .experiences {
   position: relative;
@@ -195,6 +196,7 @@ img {
 }
 .work-page .work-container .cards .card {
   display: none;
+  position: relative;
   top: 0;
   left: 0;
   width: 100%;
@@ -282,9 +284,11 @@ img {
   }
   .work-page .work-container {
     padding: 20px 0;
+    align-items: flex-start;
   }
   .work-page .work-container .work-header {
     width: calc(100% - 120px);
+    padding-left: 20px;
   }
   .work-page .work-container .timeline {
     padding: 20px;
@@ -295,7 +299,6 @@ img {
     margin: 0 0;
   }
   .work-page .work-container .timeline .experiences {
-    align-self: center;
     width: auto;
     margin: 0;
   }
@@ -306,12 +309,12 @@ img {
   .work-page .work-container .timeline .experiences li::before {
     width: 9px;
     height: 9px;
-    left: 1.1%;
+    left: 1.466%;
   }
   .work-page .work-container .timeline .experiences li.active::before {
     width: 10px;
     height: 10px;
-    left: 0.8%;
+    left: 0.9%;
   }
   .work-page .work-container .timeline .cards {
     align-self: start;

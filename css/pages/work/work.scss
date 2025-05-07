@@ -28,6 +28,7 @@ img {
       width: calc(100% - 220px);
       display: flex;
       margin: 30px 0;
+      align-items: flex-start;
     }
 
     .experiences {
@@ -95,6 +96,7 @@ img {
 
       .card {
         display: none;
+        position: relative;
         top: 0;
         left: 0;
         width: 100%;
@@ -197,9 +199,11 @@ img {
 
     .work-container {
       padding: 20px 0;
+      align-items: flex-start;
 
       .work-header {
         width: calc(100% - 120px);
+        padding-left: 20px;
       }
 
       .timeline {
@@ -211,7 +215,6 @@ img {
         margin: 0 0;
 
         .experiences {
-          align-self: center;
           width: auto;
           margin: 0;
 
@@ -222,7 +225,7 @@ img {
             &::before {
               width: 9px;
               height: 9px;
-              left: 1.1%;
+              left: 1.466%;
             }
 
             &.active {
@@ -230,7 +233,7 @@ img {
               &::before {
                 width: 10px;
                 height: 10px;
-                left: .8%;
+                left: .9%;
               }
             }
           }
