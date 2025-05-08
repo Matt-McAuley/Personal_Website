@@ -296,11 +296,16 @@ img {
   }
   .cards .card .top .slideshow {
     width: 100%;
-    height: 56.25%;
+    height: auto;
+    aspect-ratio: 16/9;
+  }
+  .cards .card .top .slideshow .slide {
+    width: 100%;
+    height: 100%;
   }
   .cards .card .top .slideshow .slide .card-image {
     width: 100%;
-    height: 56.25%;
+    height: 100%;
   }
   .cards .card .top .slideshow .slide .prev, .cards .card .top .slideshow .slide .next {
     padding: 6px;
