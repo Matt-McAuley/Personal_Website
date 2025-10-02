@@ -1,6 +1,16 @@
 const cards =
   [
     {
+      "title": "GymBuddy",
+      "description": "To keep track of your workout you often need many different apps such as a rest timer, set counter, and program tracker, which frequently have ads or features locked behind paywalls. This project consolidates the main functionalities of these apps into one for a streamlined gym experience. The mobile app was developed using the Expo and React-Native frameworks with Typescript and Swift as the programming languages. A challenge this project presented was constructing a Live Activity on the lock screen for the timer which I was able to build by extensively researching and reading documentation. I use this app nearly every day in the gym to increase my efficiency and enjoyment and it is a project I am extremely proud of. Click the GitHub icon to check out the repository with a more in depth description.",
+      "images": ["GymBuddy", "splash.png", "Home_Screen.PNG", "Live_Activity.PNG", "Home_Superset.PNG", "Home_Bottom_Sheet.PNG", "Programs.PNG", "Edit_Program_Top.PNG", "Edit_Program_Bottom.PNG", "Program_Bottom_Sheet.PNG", "Days.PNG", "Edit_Day_Top.PNG", "Edit_Day_Bottom.PNG", "Day_Bottom_Sheet.PNG", "Exercises.PNG", "Edit_Exercise_Top.PNG", "Edit_Exercise_Bottom.PNG", "Exercise_Bottom_Sheet.PNG", "Music_Home.PNG", "Music_PausedLiked.PNG", "Playlists.PNG", "Queue.PNG"],
+      "has_demo": false,
+      "demo_link": null,
+      "has_github": true,
+      "github_link": "https://github.com/matt-mcauley/GymBuddy",
+      "icons": [["https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg", "TypeScript"], ["/assets/icons/expo.svg", "Expo"], ["https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg", "React"], ["https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sqlite/sqlite-original.svg", "SQLite"], ["/assets/icons/phone.svg", "Mobile"]]
+    },
+    {
       "title": "Exercise Engine",
       "description": "While at the gym, you often need to swap out certain exercises due to equipment issues or physical limitations. This project sought to provide an information retrieval database so users could find exercises that targeted similar muscle groups while being able to filter by different criteria. The website was implemented using HTML, CSS, and Javascript on the frontend, with a Python Flask API on the backend for performing the similarity analysis. One major challenge was finding an exercise database with lengthy descriptions, which we solved by using Selenium to web scrape the information from bodybuilding.com. Our team successfully implemented a functional application that I use extensively in my daily life to find good fitness alternatives and avoid boredom. Click the link below to demo the website yourself or the GitHub icon to check out the repository with a more in depth description.",
       "images": ["Exercise_Engine", "home.png", "results.png", "results_filtered.png", "freeform.png"],
@@ -9,16 +19,6 @@ const cards =
       "has_github": true,
       "github_link": "https://github.com/matt-mcauley/Exercise_Engine",
       "icons": [["https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg", "HTML"], ["https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg", "CSS"], ["https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg", "JavaScript"], ["https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg", "Python"], ["https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flask/flask-original.svg", "Flask"], ["https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg", "AWS"]]
-    },
-    {
-      "title": "GymBuddy",
-      "description": "To keep track of your workout you often need many different apps such as a rest, timer, set counter, and weight tracker, which frequently have ads or features locked behind paywalls. This project consolidates the main functionalities of these apps into one for a streamlined gym experience. The mobile app was developed using the Expo and React-Native frameworks with Typescript as the programming language. One major challenge was dealing with memory limitations on iOS which I solved using the LocalStorage API to create the illusion of resuming even when the app forcibly restarted. I use this app nearly every day in the gym to increase my efficiency and enjoyment and it is a project I am extremely proud of. Click the GitHub icon to check out the repository with a more in depth description.",
-      "images": ["GymBuddy", "splash.png", "home_nav.png", "home.png", "programs.png", "edit_program.png", "days.png", "add_day.png", "exercises.png", "add_exercise.png", "music.png", "playlists.png"],
-      "has_demo": false,
-      "demo_link": null,
-      "has_github": true,
-      "github_link": "https://github.com/matt-mcauley/GymBuddy",
-      "icons": [["https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg", "TypeScript"], ["/assets/icons/expo.svg", "Expo"], ["https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg", "React"], ["https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sqlite/sqlite-original.svg", "SQLite"], ["/assets/icons/phone.svg", "Mobile"]]
     },
     {
       "title": "To-Do Manager",
