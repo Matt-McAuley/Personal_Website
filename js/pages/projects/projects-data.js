@@ -15,10 +15,10 @@ const cards =
       "description": "While at the gym, you often need to swap out certain exercises due to equipment issues or physical limitations. This project sought to provide an information retrieval database so users could find exercises that targeted similar muscle groups while being able to filter by different criteria. The website was implemented using HTML, CSS, and Javascript on the frontend, with a Python Flask API on the backend for performing the similarity analysis. One major challenge was finding an exercise database with lengthy descriptions, which we solved by using Selenium to web scrape the information from bodybuilding.com. Our team successfully implemented a functional application that I use extensively in my daily life to find good fitness alternatives and avoid boredom. Click the link below to demo the website yourself or the GitHub icon to check out the repository with a more in depth description.",
       "images": ["Exercise_Engine", "home.png", "results.png", "results_filtered.png", "freeform.png"],
       "has_demo": true,
-      "demo_link": "http://18.218.132.35/",
+      "demo_link": "http://150.136.113.36/",
       "has_github": true,
       "github_link": "https://github.com/matt-mcauley/Exercise_Engine",
-      "icons": [["https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg", "HTML"], ["https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg", "CSS"], ["https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg", "JavaScript"], ["https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg", "Python"], ["https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flask/flask-original.svg", "Flask"], ["https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg", "AWS"]]
+      "icons": [["https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg", "HTML"], ["https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg", "CSS"], ["https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg", "JavaScript"], ["https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg", "Python"], ["https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flask/flask-original.svg", "Flask"], ["https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/oracle/oracle-original.svg", "Oracle"]]
     },
     {
       "title": "To-Do Manager",
