@@ -16,14 +16,14 @@ const experiences =
       "description": "I worked as a backend software engineer for the app development team during my tenure as an intern. I helped design a C# API using the .NET framework to organize data on the CLO market into JSON tables. The tables could be grouped by Gics Sector, CLO Manager,  and CLO. Each contained relevant financial data on CLOs such as AUM, Revenue Growth, and Net Leverage. I wrote integration tests using the NUnit testing frameworks, dealt with caching filtered table values using Redis, and contributed to the services and repositories behind the many different endpoints. It was a great experience working with a large team across many different domains such as product, frontend, and data and seeing how complex software is built in a professional setting. At the end of my internship, the website was launched publicly to clients and is currently used by tens of thousands of financial institutions globally. It was an extremely rewarding experience and I learned about picking up new technologies quickly, writing clean and maintainable code, cross-team collaboration, advanced version control, agile software development, and much more.\n",
       "icons": [["https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg", "C#"], ["https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dot-net/dot-net-original.svg", ".NET"], ["https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redis/redis-original.svg", "Redis"], ["https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg", "Postgres"], ["/assets/icons/snowflake-color.svg", "Snowflake"]]
     },
-    // {
-    //   "title": "S&P Global",
-    //   "role": "Software Engineer Intern",
-    //   "startDate": "June 2025",
-    //   "endDate": "August 2025",
-    //   "description": "Incoming SWE Intern for Summer 2025",
-    //   "icons": []
-    // },
+    {
+      "title": "S&P Global",
+      "role": "Software Developer Intern",
+      "startDate": "June 2025",
+      "endDate": "August 2025",
+      "description": "I worked as a backend software developer on the Real-Time Value Streams team for S&P DJI during my internship. I contributed to the creation of a FastAPI GenAI service that would be integrated into the long-standing Real-Time Index Platform. It would provide 24/7 status monitoring, chatbot support, and log summaries. The goal was to consolidate the work of L1 monitors into an AI Agent to quickly respond to emergencies and save lots of time and manpower. My main contribution was designing a QA test framework that allowed automation of extensive API regression tests. Large test suites could be created in an excel file, loaded into Python with Pandas, and then automatically fed into the Agent for review. The expected and generated responses would be compared and scored using a Langchain LLM. I also worked on engineering system prompts and developing POCs for future AI Agent uses, such as emergency email communication and Playwright tooling to automate repeated workflows. It was great to be exposed to new team structures and technologies, and I really enjoyed working with modern AI libraries to implement cutting-edge functionalities. I was able to further improve my teamwork and communication skills, as well as advance my knowledge on AI, developing APIs, working with large enterprise software, effective code testing, and agile software development.\n",
+      "icons": [["https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg", "Python"], ["https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/fastapi/fastapi-original.svg", "FastAPI"], ["https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pandas/pandas-original.svg", "Pandas"], ["/assets/icons/langchain.svg", "Langchain"],["/assets/icons/ai.svg", "AI"]]
+    },
     // {
     //   "title": "Octus",
     //   "role": "Software Engineer",
